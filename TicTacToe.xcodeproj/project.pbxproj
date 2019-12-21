@@ -15,6 +15,9 @@
 		BA1CF9D123AEBAFE0012B3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1CF9CF23AEBAFE0012B3A4 /* LaunchScreen.storyboard */; };
 		BA1CF9DC23AEBAFE0012B3A4 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CF9DB23AEBAFE0012B3A4 /* TicTacToeTests.swift */; };
 		BA1CF9E723AEBAFE0012B3A4 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CF9E623AEBAFE0012B3A4 /* TicTacToeUITests.swift */; };
+		BA1CF9F723AEBB780012B3A4 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1CF9F423AEBB780012B3A4 /* board.png */; };
+		BA1CF9F823AEBB780012B3A4 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1CF9F523AEBB780012B3A4 /* nought.png */; };
+		BA1CF9F923AEBB780012B3A4 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1CF9F623AEBB780012B3A4 /* cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BA1CF9E223AEBAFE0012B3A4 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1CF9E623AEBAFE0012B3A4 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		BA1CF9E823AEBAFE0012B3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1CF9F423AEBB780012B3A4 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		BA1CF9F523AEBB780012B3A4 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		BA1CF9F623AEBB780012B3A4 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				BA1CF9C823AEBAFC0012B3A4 /* ViewController.swift */,
 				BA1CF9CA23AEBAFC0012B3A4 /* Main.storyboard */,
 				BA1CF9CD23AEBAFE0012B3A4 /* Assets.xcassets */,
+				BA1CF9F423AEBB780012B3A4 /* board.png */,
+				BA1CF9F623AEBB780012B3A4 /* cross.png */,
+				BA1CF9F523AEBB780012B3A4 /* nought.png */,
 				BA1CF9CF23AEBAFE0012B3A4 /* LaunchScreen.storyboard */,
 				BA1CF9D223AEBAFE0012B3A4 /* Info.plist */,
 			);
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1CF9F923AEBB780012B3A4 /* cross.png in Resources */,
+				BA1CF9F723AEBB780012B3A4 /* board.png in Resources */,
+				BA1CF9F823AEBB780012B3A4 /* nought.png in Resources */,
 				BA1CF9D123AEBAFE0012B3A4 /* LaunchScreen.storyboard in Resources */,
 				BA1CF9CE23AEBAFE0012B3A4 /* Assets.xcassets in Resources */,
 				BA1CF9CC23AEBAFC0012B3A4 /* Main.storyboard in Resources */,
